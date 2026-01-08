@@ -1,0 +1,131 @@
+parameter_config:
+  source_type: pgamma
+  fit_params:
+  - E0_src
+  src_index:
+  - 2.3
+  share_src_index: true
+  src_index_range:
+  - 1.0
+  - 4.0
+  beta_index:
+  - 0.0
+  beta_index_range:
+  - -1.0
+  - 1.0
+  E0_src:
+  - 186935.28583601856
+  E0_src_range:
+  - 1000.0
+  - 10000000000.0
+  diff_index: 2.5
+  diff_index_range:
+  - 1.0
+  - 4.0
+  diff_norm: 2.0e-13
+  diff_norm_range:
+  - 1.0e-15
+  - 1.0e-11
+  F_atmo_range:
+  - 0.1
+  - 0.5
+  L:
+  - 5.892499633997829e+43
+  share_L: true
+  L_range:
+  - 0
+  - 1.0e+60
+  src_dec:
+  - 35.02185405362
+  src_ra:
+  - 272.0480421042
+  Enorm: 100000.0
+  Emin: 100.0
+  Emax: 1000000000.0
+  Emin_src: 100.0
+  Emax_src: 1000000000.0
+  Emin_diff: 100.0
+  Emax_diff: 1000000000.0
+  z:
+  - 0.282
+  Emin_det_eq: true
+  Emin_det: 300.0
+  Emin_det_northern_tracks: 60000.0
+  Emin_det_cascades: 60000.0
+  Emin_det_IC40: 60000.0
+  Emin_det_IC59: 60000.0
+  Emin_det_IC79: 60000.0
+  Emin_det_IC86_I: 60000.0
+  Emin_det_IC86_II: 60000.0
+  detector_model_type:
+  - IC40
+  - IC59
+  - IC79
+  - IC86_I
+  - IC86_II
+  frame: detector
+  obs_time:
+  - 1.03041837
+  - 0.96804266
+  - 0.86528447
+  - 0.91160313
+  - 6.02031467
+  MJD_min: 98.0
+  MJD_max: 100.0
+  restrict_to_list: false
+  atmospheric: true
+  diffuse: true
+  asimov: false
+  scramble_ra: false
+  use_event_tag: false
+prior_config:
+  src_index:
+    name: NormalPrior
+    mu: 2.0
+    sigma: 1.5
+  beta_index:
+    name: NormalPrior
+    mu: 0.0
+    sigma: 0.1
+  E0_src:
+    name: LogNormalPrior
+    mu: 239651.0364417758
+    sigma: 3.0
+  diff_index:
+    name: NormalPrior
+    mu: 2.52
+    sigma: 0.04
+  L:
+    name: LogNormalPrior
+    mu: 3.677808993685418e+46
+    sigma: 4.0
+  diff_flux:
+    name: NormalPrior
+    mu: 2.26e-13
+    sigma: 2.0e-14
+  atmo_flux:
+    name: NormalPrior
+    mu: 0.3
+    sigma: 0.1
+roi_config:
+  roi_type: CircularROI
+  size: 5.0
+  apply_roi: true
+  RA_min: -1.0
+  RA_max: 361.0
+  DEC_min: -91.0
+  DEC_max: 91.0
+  RA: -1.0
+  DEC: -91.0
+stan_config:
+  threads_per_chain: 64
+  chains: 4
+  iterations: 4000
+  iter_warmup: 1000
+  adapt_delta: 0.85
+  max_treedepth: 11
+  seed: 42
+ppc_config:
+  n_samples: 100
+  seed: 42
+  directory: ppc
