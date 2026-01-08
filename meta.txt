@@ -1,0 +1,35 @@
+4FGL name           alternative name        type            alternative         cat     energy
+4FGL J0158.8+0101   5BZU J0158+0101         Masquerading    Diffuse (II.1)      –       480∗
+4FGL J0244.7+1316   CRATESJ024445+132002    Undetermined    IC161103A           Bronze  85
+4FGL J0239.5+1326   3HSP J023927.2+13273    Undetermined    IC161103A           Bronze  85
+4FGL J0224.2+1616   VOU J022411+161500      Undetermined    IC111216A           Gold    891
+4FGL J0232.8+2018   3HSP J023248.5+20171    True BL Lac     IC111216A           Gold    891
+4FGL J0344.4+3432   3HSP J034424.9+34301    Undetermined    IC150831A           Gold    181
+4FGL J0509.4+0542   TXS 0506+056            Masquerading    IC170922A           Gold    264
+#3FGL J0627.9-1517   3HSP J062753.3-15195    True BL Lac     IC170321A           Gold    231
+#4FGL J0649.5-3139   3HSP J064933.6-31392    Undetermined    IC140721A           Gold    157
+4FGL J0854.0+2753   3HSP J085410.1+27542    True BL Lac     IC150904A           Gold    302
+4FGL J0946.2+0104   3HSP J094620.2+01045    True BL Lac     IC190819A           Bronze  113
+4FGL J0955.1+3551   3HSP J095507.9+35510    True BL Lac     IC200107A           –       –
+4FGL J1003.4+0205   3HSP J100326.6+02045    Undetermined    IC190819A           Bronze  113
+#4FGL J1055.7-1807   VOU J105603-180929      Undetermined    IC171015A           Gold    72
+4FGL J1117.0+2013   3HSP J111706.2+20140    Masquerading    IC130408A           Gold    65
+4FGL J1124.0+2045   3HSP J112405.3+20455    Undetermined    IC130408A           Gold    65
+4FGL J1124.9+2143   3HSP J112503.6+21430    Undetermined    IC130408A           Gold    65
+3FGL J1258.4+2123   3HSP J125821.5+21235    Undetermined    IC151017A           Gold    321
+#4FGL J1258.7-0452   3HSP J125848.0-04474    True BL Lac     IC150926A           Gold    216
+4FGL J1300.0+1753   3HSP J130008.5+17553    Undetermined    IC151017A           Gold    321
+4FGL J1314.7+2348   5BZB J1314+2348         Masquerading    IC151017A           Gold    321
+4FGL J1321.9+3219   5BZB J1322+3216         Masquerading    IC120515A           Gold    194
+#4FGL J1507.3-3710   VOU J150720-370902      Masquerading    IC181014A           Bronze  62
+4FGL J1528.4+2004   3HSP J152835.7+20042    Masquerading    Diffuse (II.10)     –       420∗
+4FGL J1533.2+1855   3HSP J153311.2+18542    Undetermined    Diffuse (II.10)     –       420∗
+4FGL J1554.2+2008   3HSP J155424.1+20112    Undetermined    Diffuse (II.10)     –       420∗
+4FGL J1808.2+3500   CRATESJ180812+350104    Masquerading    IC110610A           Gold    294
+4FGL J1808.8+3522   3HSP J180849.7+35204    True BL Lac     IC110610A           Gold    294
+4FGL J2030.5+2235   3HSP J203031.6+22343    Undetermined    Diffuse (II.4)      –       200∗
+4FGL J2030.9+1935   3HSP J203057.1+19361    Masquerading    Diffuse (II.4)      –       200∗
+4FGL J2133.1+2529   3HSP J213314.3+25285    Undetermined    IC150714A           Gold    439
+4FGL J2223.3+0102   3HSP J222329.5+01022    Undetermined    IC140114A           Bronze  54
+4FGL J2227.9+0036   5BZB J2227+0037         Masquerading    IC140114A           Bronze  54
+4FGL J2326.2+0113   CRATESJ232625+011147    Masquerading    IC160510A           Gold    208

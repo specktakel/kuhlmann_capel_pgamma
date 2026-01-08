@@ -12,12 +12,9 @@ jupyter:
     name: python3
 ---
 
-### Some notes on this notebook
+### Cross match events from IceCat-1 with the public track data
 
-Since I am using a (still) private repository for my work, I quickly tried to make this notebook self-contained.
-It will download the 10 year public track dataset from harvard's dataverse to your home directory at ~/.icecube_data/
-Let me know if you run into trouble executing any of the cells. Thanks again for taking the time to have a look.
-
+Some paths will need to be changed according to the user's directories.
 
 ```python
 import numpy as np

@@ -1,0 +1,4 @@
+# data_dir: /raven/ptmp/jdk/hnu_paper_copied_from_viper
+data_dir: /viper/ptmp1/jdk/hnu_paper_fits/hnu_paper_fits
+mc_dir: /u/jdk/icecube/hnu_paper/hnu_paper/model_check
+ang_sys_dir: /viper/ptmp1/jdk/hnu_paper_ang_sys
